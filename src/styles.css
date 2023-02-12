@@ -1,0 +1,218 @@
+:root {
+  --primary-color: #61a4bc;
+  --secondary-color: #e8eff5;
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --heading-font: "Quattrocento", serif;
+  --defaul-font: "Maven Pro", sans-serif;
+}
+
+body {
+  font-family: var(--defaul-font);
+  color: #2b3a55;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+p {
+  opacity: 0.8;
+  line-height: 1.7;
+}
+
+h3 {
+  font-family: var(--heading-font);
+  font-size: 46px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 2;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+  border: 2px solid #fff;
+}
+
+.navbar-brand,
+.nav-brand.active,
+.navbar-brand:hover {
+  color: #2b3a55;
+  font-size: 30px;
+}
+
+.navbar-nav {
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+
+.a nav-link {
+  color: #2b3a55;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  text-align: center;
+  padding: 160px 20px 120px;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-family: "Quattrocento", serif;
+  line-height: 1.5;
+}
+
+.hero h2 {
+  font-size: 26px;
+  line-height: 1;
+  opacity: 0.8;
+}
+
+.hero h3 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.hero-buttons {
+  margin: 60px 0 0;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn-branding:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-outline {
+  background: #fff;
+  color: var(--primary-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.hero .btn {
+  margin-top: 30px;
+}
+
+.project-discription {
+  text-align: center;
+}
+
+.section-projects {
+  background: var(--secondary-color);
+  padding: 0 0 40px;
+}
+
+.projects-heading {
+  margin: 70px 0;
+}
+
+.each-project {
+  margin-bottom: 70px;
+}
+
+.projects img {
+  border-radius: 4px;
+  padding: 30px;
+  background: #fff;
+}
+
+.project-button {
+  margin: 40px 0 0;
+}
+
+.about {
+  padding: 30px 100px 100px;
+}
+
+.about-heading {
+  margin: 50px 0 30px;
+}
+
+.cv-button {
+  text-align: right;
+}
+
+.contact-heading {
+  margin: 30px 0;
+}
+
+.contact {
+  border-radius: 4px;
+  padding: 30px 0 60px;
+  border: 10px solid var(--secondary-color);
+}
+
+.email {
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 1;
+}
+
+.social-links a {
+  margin: 40px 20px 0;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 17px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
+.footer {
+  margin: 0 0 50px;
+}
+
+.footer small {
+  font-size: 16px;
+}
+
+.footer .github-link {
+  margin-top: 40px;
+}
+
+.footer small a {
+  color: var(--primary-color);
+}
