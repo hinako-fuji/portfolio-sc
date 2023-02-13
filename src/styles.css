@@ -67,7 +67,7 @@ h4 {
 
 .hero {
   text-align: center;
-  padding: 180px 20px 140px;
+  padding: 200px 20px 160px;
 }
 
 .hero h1 {
@@ -158,11 +158,11 @@ h4 {
 }
 
 .about {
-  padding: 30px 100px 100px;
+  padding: 70px 100px 140px;
 }
 
 .about-heading {
-  margin: 50px 0 30px;
+  margin: 20px 0 40px;
 }
 
 .cv-button {
@@ -230,6 +230,10 @@ h4 {
 
   .about {
     padding: 30px 20px 100px;
+  }
+
+  .about-heading {
+    margin: 50px 0 30px;
   }
 }
 
