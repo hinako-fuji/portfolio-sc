@@ -203,16 +203,12 @@ h4 {
 }
 
 .footer {
-  margin: 0 0 50px;
+  margin: 40px 0 50px;
+  padding: 0 20px;
 }
 
 .footer small {
   font-size: 16px;
-  padding: 0 10px;
-}
-
-.footer .github-link {
-  margin-top: 40px;
 }
 
 .footer small a {
